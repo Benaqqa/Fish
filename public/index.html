@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container {
+            background: #f9f9f9;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .secret-link {
+            background: #ff6b6b;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            transition: background 0.3s;
+        }
+        .secret-link:hover {
+            background: #ff5252;
+        }
+        .warning {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Our Website</h1>
+        <p>This is a legitimate website with interesting content. Feel free to explore!</p>
+        
+        <div class="warning">
+            <strong>Note:</strong> This page contains a hidden tracker that collects comprehensive user data when you click the link below.
+        </div>
+        
+        <p>Here's some interesting content to make this page look legitimate:</p>
+        <ul>
+            <li>Latest news and updates</li>
+            <li>Product information</li>
+            <li>Contact details</li>
+            <li>About our company</li>
+        </ul>
+        
+        <p>Click the link below to access exclusive content:</p>
+        <a href="/secret-link" class="secret-link">Access Exclusive Content</a>
+        
+        <p style="margin-top: 30px; font-size: 12px; color: #666;">
+            This page demonstrates advanced data collection techniques. The tracker collects:
+            <br>• Browser and device information
+            <br>• Screen resolution and viewport details
+            <br>• Geolocation (if permitted)
+            <br>• Canvas fingerprinting
+            <br>• WebGL capabilities
+            <br>• Font detection
+            <br>• Plugin information
+            <br>• Connection details
+            <br>• And much more...
+        </p>
+    </div>
+    
+    <!-- Load the tracker script -->
+    <script src="/tracker.js"></script>
+</body>
+</html> 
